@@ -1,0 +1,14 @@
+C:\Program Files\Git\bin
+
+
+git config --global user.name "shashi"
+git config --global user.email "doctor.550382@gmail.com"
+
+ssh-keygen -t ed25519 -C "doctor.550382@gmail.com"
+
+start-ssh-agent.cmd
+ssh-add C:\Users\shashi\.ssh\id_ed25519
+
+
+
+
